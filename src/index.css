@@ -1,0 +1,19 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.toast-class{
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.extra{
+  font-size: 0.8rem;
+}

@@ -1,0 +1,163 @@
+.main-container-admin{
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    box-sizing: border-box;
+    background-color:black;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main-container-admin::-webkit-scrollbar{
+    display: none;
+}
+
+.form-div-admin{
+    width: 97%;
+    height: auto;
+    /* border: 1px solid white; */
+    background-color: rgba(20, 20, 20);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.main-form-admin{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-form-div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    color: rgb(223, 209, 209);
+    font-family: cursive;
+}
+
+.input-div label{
+    cursor: pointer;
+}
+
+.input-fields, .input-content-field{
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    color: rgb(255, 248, 248);
+    font-family: cursive;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 85%;
+}
+
+.right-form-div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.input-content-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(223, 209, 209);
+    font-family: cursive;
+    align-items: flex-end;
+}
+
+.label-conatiner{
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input-content-field{
+    height: 12rem;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.create-btn {
+    background-color: rgba(94, 227, 94, 0.9); /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 5px; /* Some padding */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    width: 85%;
+}
+
+.create-btn:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}
+
+.task-div-admin{
+    width: 97%;
+    height: auto;
+    padding: 20px 0px;
+    background-color: rgba(20, 20, 20);
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 15px;
+    color: white;
+    font-family: cursive;
+}
+
+.user-details-cards{
+    width: 97%;
+    box-sizing: border-box;
+    padding: 10px;
+    min-height: 40px;
+    max-height: max-content;
+    background-color: red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+.employees-value{
+    background-color: black;
+    color: white;
+}
+
+.employee-task-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}

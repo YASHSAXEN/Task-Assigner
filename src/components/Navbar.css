@@ -1,0 +1,62 @@
+.main-container-navbar{
+    width: 100%;
+    min-height: 5rem;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-family: cursive;
+    border-radius: 15px;
+}
+
+.hello{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.lower-conatiner-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: auto;
+}
+
+.lower-div-first{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.lower-div-first p{
+    position: relative;
+    z-index: 99;
+}
+
+.nav-img{
+    position: relative;
+    left: -20px;
+}
+
+.lower-div-second{
+    display: flex;
+    align-items: center;
+}
+
+.logout{
+    background-color: red; /* Red background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Some padding */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 0; /* No border radius */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    border-radius: 3px;
+}
+
+.logout:hover {
+    background-color: darkred; /* Darker red on hover */
+}
